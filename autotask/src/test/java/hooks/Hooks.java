@@ -19,7 +19,8 @@ public class Hooks extends BaseUtil{
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "\\src\\test\\resources\\chromedriver\\chromedriver.exe");
 		System.out.println(System.getProperty("user.dir") + "\\src\\test\\resources\\chromedriver\\chromedriver.exe");
 		base.dr = new ChromeDriver();
-		System.out.println("Chrome driver initialized");
+		System.out.println("Chrome driver initialized -- JENKINS TEST");
+		
 	}
 
 	@After
