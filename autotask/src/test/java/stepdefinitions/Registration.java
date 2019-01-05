@@ -20,6 +20,7 @@ public class Registration extends BaseUtil {
 		objRegistration = new PageObjectsRegistration(baseUtil.dr);
  		baseUtil.dr.navigate().to("http://newtours.demoaut.com/");
 		baseUtil.dr.manage().window().maximize();
+		System.out.println("Browser is maximized");
 	}
 
 	@When("^Enters the necessary user details$")

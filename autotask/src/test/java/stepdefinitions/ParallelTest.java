@@ -23,6 +23,7 @@ public class ParallelTest extends BaseUtil {
 		System.out.println(System.getProperty("user.dir") + "\\src\\test\\resources\\chromedriver\\chromedriver.exe");
 		dr = new ChromeDriver();
 		dr.get("https://www.gmail.com");
+		System.out.println("This is testing");
 		
 				
 		
